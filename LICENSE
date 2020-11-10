@@ -201,6 +201,29 @@
    limitations under the License.
 
 =======================================================================
+Apache APISIX Dashboard Subcomponents:
 
-The Apache APISIX project bundles vue-typescript-admin-template under the MIT license.
-For details, see licenses/LICENSE.vue-typescript-admin-template.
+The Apache APISIX Dashboard project contains subcomponents with separate copyright
+notices and license terms. Your use of the source code for the these
+subcomponents is subject to the terms and conditions of the following
+licenses.
+
+========================================================================
+MIT licenses
+========================================================================
+
+The following components are provided under the MIT License. See project link for details.
+The text of each license is also included at licenses/LICENSE-[project].txt.
+
+   files from ant-design-pro: https://github.com/ant-design/ant-design-pro MIT
+   files from json.lua: https://github.com/rxi/json.lua MIT
+
+========================================================================
+Apache 2.0 licenses
+========================================================================
+
+The following components are provided under the Apache License. See project link for details.
+The text of each license is the standard Apache 2.0 license.
+
+   files from kubernetes/dashboard: https://github.com/kubernetes/dashboard/  Apache 2.0
+

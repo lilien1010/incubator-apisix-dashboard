@@ -17,94 +17,39 @@
 #
 -->
 
-# apisix_dashboard
+English | [简体中文](./README.zh-CN.md)
 
-## Overview
+# Apache APISIX Dashboard
 
-Dashboard for APISIX & based on ElementUI.
+Dashboard for [Apache APISIX](https://github.com/apache/apisix)
 
-## Documentation
+[Online Demo](http://139.217.190.60/), Username/Password: `admin`.
 
-[Docs](https://armour.github.io/vue-typescript-admin-docs)
+## User Guide
 
-[Vue Config Docs](https://cli.vuejs.org/zh/config/#publicpath)
+Please refer to [User Guide](./docs/USER_GUIDE.md)
 
-## Project Structure
+## Deployment
 
-```bash
-├── public                     # public static assets
-│   │── img/                   # static image files
-│   │── favicon.ico            # favicon
-│   │── index.html             # index.html template
-│   └── robots.txt             # robots file
-├── src                        # main source code
-│   ├── api/                   # api service
-│   ├── components/            # global components
-│   ├── lang/                  # i18n language
-│   ├── layout/                # global layout
-│   ├── router/                # router
-│   ├── store/                 # store
-│   ├── styles/                # global css
-│   ├── utils/                 # global utils
-│   ├── views/                 # views
-│   ├── App.vue                # main app component
-│   ├── main.ts                # app entry file
-│   ├── permission.ts          # permission authentication
-│   ├── settings.ts            # setting file
-│   └── shims.d.ts             # type definition shims
-├── licenses                   # license files for ALv2 and boilerplate
-├── .browserslistrc            # browserslist config file (to support Autoprefixer)
-├── .editorconfig              # editor code format consistency config
-├── .env.xxx                   # env variable configuration
-├── .eslintrc.js               # eslint config
-├── .eslintignore              # eslint ignore config
-├── .gitignore                 # git ignore config
-├── babel.config.js            # babel config
-├── LICENSE                    # license file
-├── NOTICE                     # notice file
-├── package.json               # package.json
-├── postcss.config.js          # postcss config
-├── README.md                  # some information about APISIX
-├── tsconfig.json              # typescript config
-├── vue.config.js              # vue-cli config
-└── yarn.lock                  # keep exact versions of each dependency
-```
+- [Deploy Manually](./docs/deploy.md)
+- [Deploy with Docker](./compose/README.md)
 
-## Project setup
-> Make sure Yarn is installed on your machine: https://yarnpkg.com/en/docs/install
+## Development
 
-### Install dependencies
+- [Apache APISIX](https://github.com/apache/apisix)
+- [Dashboard](./docs/develop.md)
 
-```bash
-yarn install
-```
+## Milestones
 
-### Compiles and hot-reloads for development
+- [2.0](https://github.com/apache/apisix-dashboard/milestone/4)
+- [2.1](https://github.com/apache/apisix-dashboard/milestone/5)
 
-```bash
-yarn run serve
-```
+## Contributing
 
-### Compiles and minifies for production
+See [CONTRIBUTING](./CONTRIBUTING.md) for details on submitting patches and the contribution workflow.
 
-```bash
-yarn run build:prod
-```
+## FAQ
 
-### Lints and fixes files
+1. If you need the dashboard-1.0 which is built with Vue.js, please refer to [master-vue](https://github.com/apache/apisix-dashboard/tree/master-vue).
 
-```bash
-yarn run lint
-```
-
-### Customize Vue configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-## Browsers support
-
-Modern browsers and Internet Explorer 10+.
-
-| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
-| --------- | --------- | --------- | --------- |
-| IE10, IE11, Edge| last 2 versions| last 2 versions| last 2 versions
+2. The dashboard 2.0 removes MySQL which [dashboard 1.5](https://github.com/apache/apisix-dashboard/tree/backup-1.5-latest) is relied on.
